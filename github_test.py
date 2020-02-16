@@ -15,7 +15,7 @@ class TestGithub(unittest.TestCase):
         """ Test case to check the user's repositories and commits"""
 
         self.assertEqual(get_repositories('dev22'), ["Repo: dev, Number of commits: 2"])
-        self.assertEqual(get_repositories('smartdev008'), ["Repo: dev, Number of commits: 2"])
+#         self.assertEqual(get_repositories('smartdev008'), ["Repo: dev, Number of commits: 2"])
 
 
 if __name__ == "__main__":
